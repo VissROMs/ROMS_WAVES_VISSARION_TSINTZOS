@@ -109,4 +109,4 @@ for file in sim_short_:
     file_ = file.replace('3dplate_fem1_sim1-actuator_', '').replace('.pch', '')
     actuator = 'act' + file_
     data = Readpch(filepath, file, num_features, actuator).read_data()
-uhjk
+print("viss")
